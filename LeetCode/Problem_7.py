@@ -44,4 +44,6 @@ class Solution(object):
             x=x//10
         if neg:
             rev=-rev
+        if rev<-2**31 or rev>2**31-1:
+            return 0
         return rev
