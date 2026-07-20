@@ -38,7 +38,7 @@
 # -105 <= nums[i] <= 105
 
 class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
+    def threeSum(self, nums):
         nums.sort()
         res = []
         for i in range(len(nums) - 2):
