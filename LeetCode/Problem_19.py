@@ -70,4 +70,4 @@ class Solution(object):
             temp=temp.next
         temp.next=temp.next.next
 
-        retun head
+        return head
